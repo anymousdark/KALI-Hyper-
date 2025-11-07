@@ -19,7 +19,7 @@ Ele instala todas as dependências complexas (via `bookworm-backports`), compila
 
 ### 🖼️ Preview Visual do Resultado
 
-*Substitua o texto abaixo pelo seu GIF ou vídeo curto (gravado após a instalação) mostrando o Hyprland rodando, com a Waybar, Rofi e o terminal `foot` abertos.*
+*500653818-23647579-62b3-401d-ba4f-21e3f175fec2.png`foot`*
 
 > ****
 > *Substitua este texto por um GIF/vídeo do seu ambiente Hyprland funcionando.*
