@@ -19,10 +19,10 @@ Ele instala todas as dependências complexas (via `bookworm-backports`), compila
 
 ### 🖼️ Preview Visual do Resultado
 
-*500653818-23647579-62b3-401d-ba4f-21e3f175fec2.png`foot`*
+
 
 > ****
-> *Substitua este texto por um GIF/vídeo do seu ambiente Hyprland funcionando.*
+> *500653818-23647579-62b3-401d-ba4f-21e3f175fec2.png.*
 
 ---
 
