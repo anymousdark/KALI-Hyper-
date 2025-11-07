@@ -1,49 +1,36 @@
 # KALI-Hyper-
- # 🚀 Hyprland Installer for Kali Linux + ML4W Dotfiles
+ # 🔱 Kali Hyprland Installer (Bookworm/KDE)
 
-**Turn your Kali Linux into a stunning tiling Wayland paradise!**  
-This automated installer sets up **Hyprland**, essential Wayland utilities, themes, NerdFonts, and applies the **ML4W Dotfiles** configuration. ⚡️
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-2023.3-4318FF?style=flat&logo=kalilinux&logoColor=white)](https://www.kali.org/)
+[![Hyprland](https://img-hoster.com/a2bdfd-000000/Hyprland-Compiled)](https://hyprland.org/)
 
-![Hyprland Demo](https://media.giphy.com/media/3o7TKC2GzQWbD3s0xW/giphy.gif)
+## ✨ Visão Geral
 
----
+Este *script* automatiza a **compilação e instalação completa** do *compositor* **Hyprland** (um moderno *Tiling Window Manager* Wayland) no **Kali Linux** baseado em **Debian Bookworm**.
 
-## 🎯 Features
-
-- 🖥 **Hyprland & Addons**  
-  - `hyprpaper`, `hypridle`, `hyprlock`  
-- 🔧 **Wayland utilities**  
-  - Waybar, Wofi, Kitty, Foot, Rofi, Mako, Swaybg, Swaylock, wlogout  
-- 🎨 **Themes & Fonts**  
-  - Papirus Icons, Noto Fonts, Meslo Nerd Font  
-- 💾 **ML4W Dotfiles**  
-  - Polished configuration for Hyprland & Waybar  
-- 🛡 **Safety first**  
-  - Existing configs are backed up automatically  
-- 🔑 **Easy login**  
-  - Creates a Wayland session for SDDM/GDM  
-- 🌐 **NetworkManager ready**  
-  - Enables networking out-of-the-box
+Ele instala todas as dependências complexas (via `bookworm-backports`), compila o Hyprland e seus complementos (`hyprpaper`, `hyprlock`), e fornece uma **configuração inicial completa e funcional** com Waybar, Rofi e ícones Papirus.
 
 ---
 
-## 📝 Requirements
+## ⚡ Demonstração (Veja a Magia Acontecer!)
 
-- Kali Linux (Debian-based)  
-- `sudo` privileges  
-- Internet connection  
-- Recommended: Backup important files  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=450&lines=Instalação+completa+em+menos+de+5+minutos!)](https://git.io/typing-svg)
+
+### 🖼️ Preview Visual do Resultado
+
+*Substitua o texto abaixo pelo seu GIF ou vídeo curto (gravado após a instalação) mostrando o Hyprland rodando, com a Waybar, Rofi e o terminal `foot` abertos.*
+
+> ****
+> *Substitua este texto por um GIF/vídeo do seu ambiente Hyprland funcionando.*
 
 ---
 
-## ⚡️ Installation
+## 🚀 Instalação Rápida (Comando Único)
 
-```bash
-# Download the installer
-wget https://github.com/yourusername/hyprland-kali-ml4w/raw/main/setup_hyprland_kali_ml4w.sh
+**AVISO DE SEGURANÇA:** Este *script* modifica o sistema, instala pacotes e compila binários. **Revise o código** antes de executar com privilégios de *root*.
 
-# Make it executable
-chmod +x setup_hyprland_kali_ml4w.sh
-
-# Run as root
-sudo ./setup_hyprland_kali_ml4w.sh
+1. **Baixar o Script:**
+   ```bash
+   # O nome do arquivo no seu repositório: install_hyprland_kali_full.sh
+   wget [https://raw.githubusercontent.com/anymousdark/KALI-Hyper-/main/install_hyprland_kali_full.sh](https://raw.githubusercontent.com/anymousdark/KALI-Hyper-/main/install_hyprland_kali_full.sh) -O install.sh
